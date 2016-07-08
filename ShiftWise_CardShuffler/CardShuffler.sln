@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardShuffler.Lib", "CardShuffler.Lib\CardShuffler.Lib.csproj", "{2B76BFC1-A481-4775-8667-7EED5224EE9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardShuffler.Test", "CardShuffler.Test\CardShuffler.Test.csproj", "{04E63B6B-E4C9-4CFC-B4F9-F0071AF35363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDataModel.Lib", "CardDataModel.Lib\CardDataModel.Lib.csproj", "{9D90123C-6D09-41B5-BDEC-B25F27A1EB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardShuffler.DevEnvironment", "CardShuffler.DevEnvironment\CardShuffler.DevEnvironment.csproj", "{336EE606-F9F9-4DF5-83DB-22007A6AEF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B76BFC1-A481-4775-8667-7EED5224EE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B76BFC1-A481-4775-8667-7EED5224EE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B76BFC1-A481-4775-8667-7EED5224EE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B76BFC1-A481-4775-8667-7EED5224EE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E63B6B-E4C9-4CFC-B4F9-F0071AF35363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E63B6B-E4C9-4CFC-B4F9-F0071AF35363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E63B6B-E4C9-4CFC-B4F9-F0071AF35363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E63B6B-E4C9-4CFC-B4F9-F0071AF35363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D90123C-6D09-41B5-BDEC-B25F27A1EB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D90123C-6D09-41B5-BDEC-B25F27A1EB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D90123C-6D09-41B5-BDEC-B25F27A1EB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D90123C-6D09-41B5-BDEC-B25F27A1EB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336EE606-F9F9-4DF5-83DB-22007A6AEF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336EE606-F9F9-4DF5-83DB-22007A6AEF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336EE606-F9F9-4DF5-83DB-22007A6AEF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336EE606-F9F9-4DF5-83DB-22007A6AEF38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

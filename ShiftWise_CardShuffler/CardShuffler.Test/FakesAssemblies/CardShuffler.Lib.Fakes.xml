@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CardShuffler.Lib.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:CardShuffler.Lib.Fakes.ShimCardShuffler">
+            <summary>Shim type of CardShuffler.Lib.CardShuffler</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimCardShuffler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimCardShuffler.#ctor(CardShuffler.Lib.CardShuffler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimCardShuffler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimCardShuffler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.ConstructorIRandomNumberGenerator">
+            <summary>Sets the shim of CardShuffler.CardShuffler(IRandomNumberGenerator rng)</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.DeckErrorCheckingDeck">
+            <summary>Sets the shim of CardShuffler.DeckErrorChecking(Deck deck)</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.ShuffleDeck">
+            <summary>Sets the shim of CardShuffler.Shuffle(Deck deck)</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.SortDeckBoolean">
+            <summary>Sets the shim of CardShuffler.Sort(Deck deck, Boolean acesHigh)</summary>
+        </member>
+        <member name="T:CardShuffler.Lib.Fakes.ShimCardShuffler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.AllInstances.DeckErrorCheckingDeck">
+            <summary>Sets the shim of CardShuffler.DeckErrorChecking(Deck deck)</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.AllInstances.ShuffleDeck">
+            <summary>Sets the shim of CardShuffler.Shuffle(Deck deck)</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimCardShuffler.AllInstances.SortDeckBoolean">
+            <summary>Sets the shim of CardShuffler.Sort(Deck deck, Boolean acesHigh)</summary>
+        </member>
+        <member name="T:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator">
+            <summary>Shim type of CardShuffler.Lib.DefaultRandomNumberGenerator</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.#ctor(CardShuffler.Lib.DefaultRandomNumberGenerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.Bind(CardShuffler.Lib.IRandomNumberGenerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.Constructor">
+            <summary>Sets the shim of DefaultRandomNumberGenerator.DefaultRandomNumberGenerator()</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.NextUInt32">
+            <summary>Sets the shim of DefaultRandomNumberGenerator.Next(UInt32 maxRange)</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.StaticConstructor">
+            <summary>Sets the shim of DefaultRandomNumberGenerator.DefaultRandomNumberGenerator()</summary>
+        </member>
+        <member name="T:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.ShimDefaultRandomNumberGenerator.AllInstances.NextUInt32">
+            <summary>Sets the shim of DefaultRandomNumberGenerator.Next(UInt32 maxRange)</summary>
+        </member>
+        <member name="T:CardShuffler.Lib.Fakes.StubCardShuffler">
+            <summary>Stub type of CardShuffler.Lib.CardShuffler</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.StubCardShuffler.#ctor(CardShuffler.Lib.IRandomNumberGenerator)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.StubCardShuffler.InitializeStub">
+            <summary>Initializes a new instance of type StubCardShuffler</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.StubCardShuffler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.StubCardShuffler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.StubCardShuffler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:CardShuffler.Lib.Fakes.StubDefaultRandomNumberGenerator">
+            <summary>Stub type of CardShuffler.Lib.DefaultRandomNumberGenerator</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.StubDefaultRandomNumberGenerator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.StubDefaultRandomNumberGenerator.InitializeStub">
+            <summary>Initializes a new instance of type StubDefaultRandomNumberGenerator</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.StubDefaultRandomNumberGenerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.StubDefaultRandomNumberGenerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:CardShuffler.Lib.Fakes.StubDefaultRandomNumberGenerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:CardShuffler.Lib.Fakes.StubIRandomNumberGenerator">
+            <summary>Stub type of CardShuffler.Lib.IRandomNumberGenerator</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.StubIRandomNumberGenerator.#ctor">
+            <summary>Initializes a new instance of type StubIRandomNumberGenerator</summary>
+        </member>
+        <member name="M:CardShuffler.Lib.Fakes.StubIRandomNumberGenerator.csl::CardShuffler#Lib#IRandomNumberGenerator#Next(System.UInt32)">
+            <summary>Sets the stub of IRandomNumberGenerator.Next(UInt32 maxRange)</summary>
+        </member>
+        <member name="F:CardShuffler.Lib.Fakes.StubIRandomNumberGenerator.NextUInt32">
+            <summary>Sets the stub of IRandomNumberGenerator.Next(UInt32 maxRange)</summary>
+        </member>
+    </members>
+</doc>
